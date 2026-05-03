@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Грузоперевозки по Республике Саха (Якутия) | Гарантия сохранности и сроков</title>
+    <meta name="description" content="Профессиональные грузоперевозки по Республике Саха (Якутия). 4 года на рынке, современный подход к логистике.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ПАНЕЛЬ ДОСТУПНОСТИ ДЛЯ СЛАБОВИДЯЩИХ -->
+    <div class="accessibility-panel" id="accessibilityPanel">
+        <button class="accessibility-toggle" id="accessibilityToggle">
+            <i class="fas fa-universal-access"></i>
+        </button>
+        <div class="accessibility-menu" id="accessibilityMenu">
+            <div class="accessibility-title">
+                <i class="fas fa-eye"></i> Режим для слабовидящих
+            </div>
+            <div class="accessibility-controls">
+                <button class="access-btn" id="fontPlus">
+                    <i class="fas fa-search-plus"></i> Увеличить шрифт
+                </button>
+                <button class="access-btn" id="fontMinus">
+                    <i class="fas fa-search-minus"></i> Уменьшить шрифт
+                </button>
+                <button class="access-btn" id="fontReset">
+                    <i class="fas fa-undo-alt"></i> Сбросить шрифт
+                </button>
+                <button class="access-btn" id="contrastToggle">
+                    <i class="fas fa-adjust"></i> Высокий контраст
+                </button>
+            </div>
+            <div class="accessibility-note">
+                <i class="fas fa-info-circle"></i> Нажмите Ctrl + "+" / "-" для изменения размера
+            </div>
+        </div>
+    </div>
+
+    <!-- ФОНОВЫЕ ПЛАВАЮЩИЕ ГРУЗОВИКИ (на всю страницу) -->
+    <div class="global-bg-animation">
+        <div class="global-truck global-truck-1"><i class="fas fa-truck"></i></div>
+        <div class="global-truck global-truck-2"><i class="fas fa-truck-moving"></i></div>
+        <div class="global-truck global-truck-3"><i class="fas fa-truck"></i></div>
+        <div class="global-truck global-truck-4"><i class="fas fa-truck-fast"></i></div>
+        <div class="global-truck global-truck-5"><i class="fas fa-truck"></i></div>
+        <div class="global-truck global-truck-6"><i class="fas fa-truck-moving"></i></div>
+        <div class="global-truck global-truck-7"><i class="fas fa-truck"></i></div>
+        <div class="global-truck global-truck-8"><i class="fas fa-truck"></i></div>
+    </div>
+
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo-container">
+                <div class="logo-img">
+                    <img src="images/logo.png" alt="Логотип" onerror="this.style.display='none'">
+                </div>
+                <div class="logo">Грузоперевозки</div>
+            </div>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#features">Преимущества</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#routes">Маршруты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:+79142234953" class="phone"><i class="fas fa-phone-alt"></i> +7 914 223-49-53</a>
+                <a href="#contact" class="btn">Связаться</a>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>4 года перевозим грузы по Республике Саха (Якутия)</h1>
+            <p>Быстро, безопасно и выгодно доставим ваш груз в любой дальний район</p>
+            <div class="stats">
+                <div class="stat-item scroll-reveal">
+                    <span class="stat-number">10+</span> компаний-партнеров
+                </div>
+                <div class="stat-item scroll-reveal">
+                    <span class="stat-number">50+</span> постоянных клиентов
+                </div>
+                <div class="stat-item scroll-reveal">
+                    <span class="stat-number">4 года</span> доставляем вовремя
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn">Связаться с нами</a>
+                <a href="#routes" class="btn btn-outline">Маршруты и стоимость</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают нас?</h2>
+            <p class="section-subtitle">Мы постоянно совершенствуем сервис и предлагаем клиентам только лучшие решения</p>
+            <div class="features-grid">
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Связь с водителем</h3>
+                    <p>Водитель всегда на связи для оперативных вопросов</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-award"></i></div>
+                    <h3>Бережная транспортировка</h3>
+                    <p>Ваш груз в надежных руках — максимальная сохранность</p>
+                </div>
+                <div class="feature-card scroll-reveal">
+                    <div class="feature-icon"><i class="fas fa-ruble-sign"></i></div>
+                    <h3>Оптимальная стоимость</h3>
+                    <p>Баланс между скоростью доставки и доступной ценой</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-trucks">
+            <div class="about-truck truck-1"><i class="fas fa-truck"></i></div>
+            <div class="about-truck truck-2"><i class="fas fa-truck-moving"></i></div>
+            <div class="about-truck truck-3"><i class="fas fa-truck"></i></div>
+            <div class="about-truck truck-4"><i class="fas fa-truck-fast"></i></div>
+            <div class="about-truck truck-5"><i class="fas fa-truck"></i></div>
+            <div class="about-truck truck-6"><i class="fas fa-truck-moving"></i></div>
+        </div>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text scroll-reveal">
+                    <h2>О компании</h2>
+                    <h3>Профессионалы дальних перевозок по Якутии</h3>
+                    <p>Начав работу в 2021 году, мы изучили каждый километр якутских трасс. Наш опыт — ваша уверенность в сохранности груза.</p>
+                    <p>Специализируемся на надежных перевозках по всей территории Якутии. Знаем особенности маршрутов и гарантируем доставку в целости.</p>
+                    <a href="#contact" class="btn">Связаться с нами</a>
+                </div>
+                <div class="about-slideshow scroll-reveal">
+                    <div class="slideshow-container">
+                        <div class="slide fade"><img src="images/ph0.jpg" alt="Фото 0"></div>
+                        <div class="slide fade"><img src="images/ph1.jpg" alt="Фото 1"></div>
+                        <div class="slide fade"><img src="images/ph2.jpg" alt="Фото 2"></div>
+                        <div class="slide fade"><img src="images/ph3.jpg" alt="Фото 3"></div>
+                        <div class="slide fade"><img src="images/ph4.jpg" alt="Фото 4"></div>
+                        <div class="slide fade"><img src="images/ph5.jpg" alt="Фото 5"></div>
+                        <div class="slide fade"><img src="images/ph6.jpg" alt="Фото 6"></div>
+                        <div class="slide fade"><img src="images/ph7.jpg" alt="Фото 7"></div>
+                        <div class="slide fade"><img src="images/ph8.jpg" alt="Фото 8"></div>
+                        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="dots-container">
+                        <span class="dot" onclick="currentSlide(0)"></span>
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                        <span class="dot" onclick="currentSlide(8)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <p class="section-subtitle">Нам доверили перевозки более 200 клиентов по Республике</p>
+            <div class="reviews-grid">
+                <div class="review-card scroll-reveal">
+                    <p>Поражает профессиональный подход! Передаем дорогостоящие грузы — всегда бережно и точно по графику. Современный подход + надежность.</p>
+                    <div class="review-author">Владимир Захаров</div>
+                    <div class="review-location">г. Магадан</div>
+                </div>
+                <div class="review-card scroll-reveal">
+                    <p>Регулярно заказываем перевозку металлопроката. Ребята справляются на отлично — грузят аккуратно, доставляют без повреждений. Рекомендуем!</p>
+                    <div class="review-author">Дмитрий Колодезников</div>
+                    <div class="review-location">п. Усть-Нера</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="routes" class="features" style="background: white;">
+        <div class="container">
+            <h2 class="section-title">Маршруты и стоимость перевозок</h2>
+            <p class="section-subtitle">Индивидуальный подход. Цены ориентировочные, точный расчет после уточнения параметров груза.</p>
+            <div class="routes-grid">
+                <div class="route-card scroll-reveal">
+                    <h3><i class="fas fa-map-marker-alt"></i> Якутск — Мирный</h3>
+                    <p>📏 1 200 км · ⏱ 2-3 дня</p>
+                    <div class="route-price">от 95 ₽/кг</div>
+                    <p>Полный груз от 250 000 ₽</p>
+                </div>
+                <div class="route-card scroll-reveal">
+                    <h3><i class="fas fa-map-marker-alt"></i> Якутск — Нерюнгри</h3>
+                    <p>📏 850 км · ⏱ 1-2 дня</p>
+                    <div class="route-price">от 85 ₽/кг</div>
+                    <p>Полный груз от 220 000 ₽</p>
+                </div>
+                <div class="route-card scroll-reveal">
+                    <h3><i class="fas fa-map-marker-alt"></i> Якутск — Усть-Нера</h3>
+                    <p>📏 1 150 км · ⏱ 3-4 дня</p>
+                    <div class="route-price">от 110 ₽/кг</div>
+                    <p>Полный груз от 280 000 ₽</p>
+                </div>
+                <div class="route-card scroll-reveal">
+                    <h3><i class="fas fa-map-marker-alt"></i> Якутск — Алдан</h3>
+                    <p>📏 650 км · ⏱ 1 день</p>
+                    <div class="route-price">от 75 ₽/кг</div>
+                    <p>Полный груз от 190 000 ₽</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title" style="text-align: center; margin-bottom: 40px;">
+                <h2>Оставить заявку</h2>
+                <p class="section-subtitle">Заполните форму — мы рассчитаем стоимость и свяжемся с вами в течение 15 минут</p>
+            </div>
+            <div class="contact-single-card">
+                <div class="contact-form-card">
+<form id="onlineRequestForm" 
+      action="https://formsubmit.co/darbasova26@gmail.com" 
+      method="POST"
+      class="modern-form">
+    
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_subject" value="Новая заявка с сайта!">
+    
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label><i class="fas fa-user"></i> Ваше имя <span class="required">*</span></label>
+                                    <input type="text" id="formName" name="Имя" placeholder="Иван Иванов" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label><i class="fas fa-phone-alt"></i> Телефон <span class="required">*</span></label>
+                                    <input type="tel" id="formPhone" name="Телефон" placeholder="+7 (___) ___-__-__" required>
+                                </div>
+                            </div>
+    
+                            <div class="form-row two-cols">
+                                <div class="form-group">
+                                    <label><i class="fas fa-map-marker-alt"></i> Откуда</label>
+                                    <input type="text" id="formFrom" name="Откуда" placeholder="Якутск">
+                                </div>
+                                <div class="form-group">
+                                    <label><i class="fas fa-flag-checkered"></i> Куда</label>
+                                    <input type="text" id="formTo" name="Куда" placeholder="Мирный">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label><i class="fas fa-weight-hanging"></i> Вес груза (кг) <span class="required">*</span></label>
+                                    <input type="number" id="formWeight" name="Вес_груза_кг" placeholder="Например: 500" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label><i class="fas fa-comment-dots"></i> Комментарий</label>
+                                    <textarea id="formComment" name="Комментарий" rows="3" placeholder="Опишите груз, габариты..."></textarea>
+                                </div>
+                            </div>
+                            
+                            <!-- Уберите required с чекбокса или оставьте -->
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="formAgree" name="Согласие" checked required>
+                                <label for="formAgree">Я согласен на обработку персональных данных</label>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Отправить заявку
+                            </button>
+                        </form>
+                    <div class="form-contacts-footer">
+                        <div class="footer-divider"><span>или свяжитесь напрямую</span></div>
+                        <a href="https://max.ru/u/f9LHodD0cOJM4n_YoO_Q-Vx4HGCKHsvIq4EUs3eIbh7i9nDbb6WqAUYWLx4" class="footer-phone"><i class="fas fa-phone-alt"></i> +7 914 223-49-53</a>
+                        <div class="footer-messengers">
+                            <a href="tel:+79142234953" class="footer-messenger-btn max-btn"><i class="fas fa-headset"></i> MAX</a>
+                            <a href="https://vk.me/747722472" class="footer-messenger-btn vk-btn" target="_blank"><i class="fab fa-vk"></i> ВКонтакте</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="logo" style="color:white;">Грузоперевозки</div>
+                    <p style="color:rgba(255,255,255,0.6);">Надежные логистические решения с 2021 года</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Компания</h4>
+                    <a href="#features">Преимущества</a>
+                    <a href="#about">О компании</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#routes">Маршруты</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-links">
+                    <h4><i class="fas fa-info-circle"></i> Информация</h4>
+                    <div class="footer-info-docs">
+                        <h4><i class="fas fa-file-alt"></i> Документы ИП</h4>
+                        <div class="doc-item">
+                            <i class="fas fa-id-card"></i>
+                            <a href="#" download>Свидетельство ОГРНИП (PDF)</a>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-file-invoice"></i>
+                            <a href="#" download>Свидетельство ИНН (PDF)</a>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-scroll"></i>
+                            <a href="#" download>Выписка из ЕГРИП (PDF)</a>
+                        </div>
+                        <div class="doc-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <a href="#" download>Политика конфиденциальности</a>
+                        </div>
+                        <div class="doc-note"><i class="fas fa-download"></i> Нажмите для скачивания</div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">© <script>document.write(new Date().getFullYear())</script> ИП Дарбасов Игорь Петрович. Все права защищены.</div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <!-- COOKIES УВЕДОМЛЕНИЕ -->
+    <div id="cookiesNotice" class="cookies-notice">
+        <div class="cookies-content">
+            <div class="cookies-text">
+                <i class="fas fa-cookie-bite"></i>
+                <span>Мы используем файлы cookie, чтобы обеспечить максимальное удобство использования сайта.</span>
+            </div>
+            <button id="acceptCookies" class="cookies-btn">Согласен</button>
+        </div>
+    </div>
+
+</body>
+</html>
