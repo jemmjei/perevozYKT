@@ -265,7 +265,7 @@ nav ul li a:hover { color: var(--primary); }
 
 /* ==================== HERO ==================== */
 .hero {
-    background: linear-gradient(135deg, rgba(160, 24, 44, 0.92) 0%, rgba(26, 35, 126, 0.88) 100%), url('../images/fon.jpg') no-repeat center center/cover;
+    background: linear-gradient(135deg, rgba(160, 24, 44, 0.92) 0%, rgba(26, 35, 126, 0.88) 100%), url('../images/fon.webp') no-repeat center center/cover;
     color: white;
     padding: 140px 0 80px;
     text-align: center;
